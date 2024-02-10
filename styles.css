@@ -83,6 +83,13 @@ h1 {
     padding-top: 2rem;
 }
 
+.card {
+    height: 95vh;
+}
+
+.card-body {
+    padding-left: 0%;
+}
 
 .pic {
     padding: 0;
