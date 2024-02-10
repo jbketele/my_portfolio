@@ -84,7 +84,7 @@ h1 {
 }
 
 .card {
-    height: 95vh;
+    height: 100%;
 }
 
 .card-body {
