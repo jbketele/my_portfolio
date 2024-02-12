@@ -4,6 +4,12 @@
     padding: 0%;
 }
 
+.social {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
 .landing {
     height: 85vh;
 }
