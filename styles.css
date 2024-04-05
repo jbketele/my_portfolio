@@ -93,6 +93,18 @@ h1 {
     width: 75%;
 }
 
+.fond-mobile {
+    width: 19%;
+}
+
+.french-team {
+    width: 33%;
+}
+
+.legends {
+    width: 33%;
+}
+
 @media (max-width:767px) {
     .accroche {
         text-align: center;
