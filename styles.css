@@ -221,6 +221,18 @@ button[type="submit"] {
     text-align: center;
 }
 
+.timeline-overlay {
+    position: relative;
+    top: 0;
+    left: 50%;
+    margin-bottom: 1rem;
+    transform: translateX(-50%);
+    background-color: antiquewhite;
+    width: 100%;
+    padding: 20px;
+    z-index: 1;
+}
+
 /* The actual timeline (the vertical ruler) */
 .main-timeline-2 {
     position: relative;
