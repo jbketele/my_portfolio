@@ -57,19 +57,14 @@ h1 {
     margin-top: 38vh;
 }
 
-.first-image {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-}
+
 
 .moodboard {
     width: 25vw;
-
 }
 
 .banniere {
-    height: fit-content;
-    margin-bottom: 2rem;
+    width: 100%;
 }
 
 .boite-nike {
