@@ -28,6 +28,10 @@ section {
     height: 5rem;
 }
 
+.card-img-top {
+    width: 50%;
+}
+
 .field {
     height: 40rem;
     width: 100vw;
@@ -60,8 +64,6 @@ h1 {
 .name {
     margin-top: 38vh;
 }
-
-
 
 .moodboard {
     width: 30vw;
@@ -183,8 +185,6 @@ h1 {
 .gallery .item {
     padding-bottom: 30px;
 }
-
-
 
 label,
 input,
