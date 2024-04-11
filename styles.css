@@ -1,7 +1,11 @@
 .menu {
-    width: 100vw;
+    width: auto;
     background-color: rgba(217, 217, 217, 0.8);
     padding: 0%;
+}
+
+section {
+    width: 100%;
 }
 
 .social {
@@ -250,6 +254,7 @@ button[type="submit"] {
     position: relative;
     background-color: inherit;
     width: 50%;
+    margin: 0;
 }
 
 /* The circles on the timeline */
@@ -268,13 +273,16 @@ button[type="submit"] {
 /* Place the container to the left */
 .left-2 {
     padding: 0px 40px 20px 0px;
-    left: 0;
+    left: 65px;
+    width: 45%;
 }
 
 /* Place the container to the right */
 .right-2 {
     padding: 0px 0px 20px 40px;
     left: 50%;
+    margin: 0;
+    width: 45%;
 }
 
 /* Add arrows to the left container (pointing right) */
@@ -319,6 +327,11 @@ button[type="submit"] {
         width: 100%;
         padding-left: 70px;
         padding-right: 25px;
+        margin: 0;
+    }
+
+    .left-2 {
+        left: 0;
     }
 
     /* Make sure that all arrows are pointing leftwards */
