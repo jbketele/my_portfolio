@@ -49,8 +49,20 @@
         }
 
         .container img {
-            height: 50%;
+            height: 130px;
             object-fit: contain;
+        }
+
+        .card-body {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .buttons {
+            margin-top: auto;
+            display: flex;
+            justify-content: space-between;
         }
     </style>
 </head>
@@ -110,7 +122,7 @@
         <div>
             <h2 class="text-center text-white">Développement web</h2>
         </div>
-        <div class="container row row-cols-1 row-cols-md-5" style="padding-bottom: 5vh;">
+        <div class="container row row-cols-1 row-cols-md-5" style="padding-bottom: 5vh; max-width: fit-content;">
             <div class="col cards">
                 <div class="container card border-light shadow-lg">
                     <img src="imgs/Booki.png" alt="...">
@@ -119,8 +131,12 @@
                         </h5>
                         <p class="card-text">Page d'accueil d'une agence de voyage
                         </p>
-                        <a href="https://github.com/jbketele/booki" target="_blank" class="btn btn-success">Code
-                            source <i class="fa-brands fa-github"></i></a>
+                        <div class="buttons">
+                            <a href="https://github.com/jbketele/booki" target="_blank" class="btn btn-success">Code
+                                <i class="fa-brands fa-github"></i></a>
+                            <a href="https://jbketele.github.io/booki" target="_blank"
+                                class="btn btn-success">Aperçu</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -133,8 +149,12 @@
                         <p class="card-text">Un site “mobile first” qui répertorie les menus de restaurants
                             gastronomiques.
                         </p>
-                        <a href="https://github.com/jbketele/ohmyfood" target="_blank" class="btn btn-success">Code
-                            source <i class="fa-brands fa-github"></i></a>
+                        <div class="buttons">
+                            <a href="https://github.com/jbketele/ohmyfood" target="_blank" class="btn btn-success">Code
+                                <i class="fa-brands fa-github"></i></a>
+                            <a href="https://jbketele.github.io/ohmyfood" target="_blank"
+                                class="btn btn-success">Aperçu</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -144,11 +164,15 @@
                     <img src="imgs/gameon.png" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">GameOn</h5>
-                        <p class="card-text pb-4">Formulaire pour une PME spécialisée dans les conférences et les
+                        <p class="card-text">Formulaire pour une PME spécialisée dans les conférences et les
                             concours de jeux.
                         </p>
-                        <a href="https://github.com/jbketele/gameon" target="_blank" class="btn btn-success">Code
-                            source <i class="fa-brands fa-github"></i></a>
+                        <div class="buttons">
+                            <a href="https://github.com/jbketele/gameon" target="_blank" class="btn btn-success">Code
+                                <i class="fa-brands fa-github"></i></a>
+                            <a href="https://jbketele.github.io/gameon" target="_blank"
+                                class="btn btn-success">Aperçu</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -161,8 +185,12 @@
                         <p class="card-text" style="height: 45%;">Un site accessible pour une plateforme pour
                             photographes
                         </p>
-                        <a href="https://github.com/jbketele/Fisheye" target="_blank" class="btn btn-success">Code
-                            source <i class="fa-brands fa-github"></i></a>
+                        <div class="buttons">
+                            <a href="https://github.com/jbketele/Fisheye" target="_blank" class="btn btn-success">Code
+                                <i class="fa-brands fa-github"></i></a>
+                            <a href="https://jbketele.github.io/Fisheye" target="_blank"
+                                class="btn btn-success">Aperçu</a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -174,8 +202,10 @@
                         <h5 class="card-title">Les petits plats</h5>
                         <p class="card-text pb-4">À venir
                         </p>
-                        <a href="https://github.com/jbketele/" target="_blank" class="btn btn-success">Code
-                            source <i class="fa-brands fa-github"></i></a>
+                        <div class="buttons">
+                            <a href="https://github.com/jbketele/" target="_blank" class="btn btn-success">Code
+                                <i class="fa-brands fa-github"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>
